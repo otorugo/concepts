@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Concepts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="recycler_concept">Tela feita para estudar o conceito de Recycler</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/recyclerFragment">
+
+    <fragment
+        android:id="@+id/recyclerFragment"
+        android:name="com.example.concepts.recycler.RecyclerFragment"
+        android:label="fragment_recycler"
+        tools:layout="@layout/fragment_recycler" >
+        <action
+            android:id="@+id/action_recyclerFragment_to_internetDataFragment"
+            app:destination="@id/internetDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/internetDataFragment"
+        android:name="com.example.concepts.internetdata.InternetDataFragment"
+        android:label="fragment_internet_data"
+        tools:layout="@layout/fragment_internet_data" />
+</navigation>
